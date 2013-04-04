@@ -1,0 +1,16 @@
+<table>
+	<tr>
+		<th>Id</th>
+		<th>Name</th>
+	</tr>
+	<% @rs.each do |row| %>
+		<tr>
+			<td><%= row[0] %></td>
+			<td><%= row[2] %></td>
+		</tr>
+	<% end %>
+</table>
+
+
+
+<p><a href="<%= @home %>">Go back to Home</a></p>
