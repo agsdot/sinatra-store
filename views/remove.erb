@@ -1,8 +1,11 @@
-<hi>Add something new!</hi>
+<hi>DOes it work?</hi>
 
+<!--
+params = <%= params.inspect %>
 
-
-<form action='/products/new' method='post' >
+-->
+<p> chop and burn it</p>
+<form action='/products/<%= @id %>' method='post' >
 <p>
 	<label for='product_name'>Product Name</label>
 	<input type='text' name='product_name' />
@@ -13,7 +16,9 @@
 <!-- 	<input type= 'submit' /> -->	
 </p>
 <p>
-	<button>Save Products</button>
+	<button>Update Products</button>
 </form>
 </p>
+
+
 

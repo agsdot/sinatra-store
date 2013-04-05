@@ -91,6 +91,7 @@ get '/products/:id' do
    # @price = row['price']
    # @id = row['id']
    # @on_sale = row['on_sale']
+  @id = row['id']
   @users = '/users'
   @products = '/products'
   @home = '/'
@@ -106,7 +107,7 @@ end
 
 # +++++++++++
 get '/products/:id/edit' do
-    id = params[:id]
+  @id = params[:id]
    #sql = "SELECT name, price, id, on_sale FROM products;"
    # @rs = @db.prepare("SELECT name, price, id, on_sale FROM products where id = '#{id}';").execute #recordset 
    #@rs = @db.execute(sql)
@@ -120,12 +121,19 @@ get '/products/:id/edit' do
   @products = '/products'
   @home = '/'
   @new_product = '/products/new'
-
-
   erb :edit
 
 end
 
+get '/products/:id/remove' do
+  @id = params[:id]
+  @users = '/users'
+  @products = '/products'
+  @home = '/'
+  @new_product = '/products/new'
+  erb :remove
+
+end
 
 
 
@@ -142,8 +150,7 @@ post '/products/:id' do
     @products = '/products'
     @home = '/'
     @new_product = '/products/new'
-    erb :product_created
-
+    erb :product_modified
 # erb :product_created
 end
 
