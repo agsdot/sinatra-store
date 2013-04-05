@@ -1,0 +1,7 @@
+<% @rs.each do |x| %>
+
+<p>
+So, we've got <%= x['name'] %> (Item #<%= x['id'] %>) in stock, priced at $<%= x['price'] %><% if x['on_sale'] == 't' %>, and its on sale!<% end %>.</p><%	end %>
+
+
+

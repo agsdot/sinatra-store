@@ -1,6 +1,24 @@
-/*div {
+/*
+
+# add a route to show product details:
+# ex. /products/123
+# get '/products/:id' do
+#   id = params[:id]
+#   #get your record
+#   #set some instance vars
+#   #call a template
+
+#   end
+
+# 1) show the name, price, id, and if its on sale
+# 2) include a link to the menu
+
+
+  # gem install --version 1.3.0 sinatra*/
+
+div {
 	border: 1px solid #f0f;
-}*/
+}
 
 
 body {
@@ -16,6 +34,17 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background-color: #fffafa;
+}
+
+.navbar-inner {
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.brand {
+	text-align: center;
+	margin: 0 auto;	
 }
 
 table {

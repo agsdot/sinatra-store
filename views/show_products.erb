@@ -1,3 +1,7 @@
+
+
+
+
 <table>
 	<tr>
 		<th>Item Name</th>
@@ -6,7 +10,7 @@
 	</tr>
 	<% @rs.each do |row| %>
 		<tr>
-	
+			<td><%= row[0] %></td>	
 			<td><%= row['name'] %></td>
 			<td><%= row['price'] %></td>
 			<td class="align-center"><% if row['on_sale'] == 't' %>
