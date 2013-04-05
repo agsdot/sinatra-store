@@ -91,7 +91,7 @@ get '/products/:id' do
    # @price = row['price']
    # @id = row['id']
    # @on_sale = row['on_sale']
-  @id = row['id']
+  # @id = row['id']
   @users = '/users'
   @products = '/products'
   @home = '/'
@@ -125,15 +125,29 @@ get '/products/:id/edit' do
 
 end
 
-get '/products/:id/remove' do
+get '/products/:id/delete' do
+  unless params[:id]
+      redirect "/products"
+  end
   @id = params[:id]
+
   @users = '/users'
   @products = '/products'
   @home = '/'
   @new_product = '/products/new'
-  erb :remove
-
+  erb :delete
 end
+
+post '/products/:id/delete' do
+  @id = params[:id]
+  sql = "delete from products where id = #{@id};"
+  @rs = @db.execute(sql)
+
+  redirect "/products"
+  # erb :show_products
+end
+
+
 
 
 
@@ -154,9 +168,6 @@ post '/products/:id' do
 # erb :product_created
 end
 
-# +++++++++++++
-
- 
 
 
 
