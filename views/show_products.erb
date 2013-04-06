@@ -20,11 +20,13 @@
 			<td class="align-center"><% if row['on_sale'] == 't' %>
 				<img src='http://profile.ak.fbcdn.net/hprofile-ak-ash4/373279_81502226948_2134466251_q.jpg'>
 				<% end %>
-	
 			</td>
 			<td><a href="/products/<%= row[0] %>/edit">Update</a></td>
 			<td><a href="/products/<%= row[0] %>/delete">Delete</a></td>
-
+			<td>
+      			<a href="/products/search?namers=<%= URI.escape(row['name']) %>">Search on Twitter</a>
+		    </td>
+		
 	
 	
 

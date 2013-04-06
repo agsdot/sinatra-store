@@ -5,13 +5,17 @@ require 'sinatra'
 require 'sinatra/reloader'
 # require 'better_errors'
 require 'sqlite3'
- 
+require 'json'
+require 'open-uri'
+require 'uri'
 
 
 before do
   @db = SQLite3::Database.new "store.sqlite3"
   @db.results_as_hash = true
 end
+
+
 
 get '/users' do
   db = SQLite3::Database.new "store.sqlite3" #create a handle to the database
@@ -24,6 +28,12 @@ get '/users' do
   erb :show_users #render show users  
 end
 
+get '/users.json' do
+  @rs = @db.execute('SELECT id, name FROM users;')
+  @rs.to_json
+end
+
+
 get '/' do
   @users = '/users'
   @products = '/products'
@@ -33,18 +43,23 @@ get '/' do
 end
 
 get '/products' do
-  db = SQLite3::Database.new "store.sqlite3" #create a handle to the database
-  db.results_as_hash = true
-  @rs = db.prepare('SELECT * FROM products;').execute #recordset 
+  @rs = @db.prepare('SELECT * FROM products;').execute #recordset 
   @users = '/users'
   @products = '/products'
   @home = '/'
   @new_product = '/products/new'
-
-
   erb :show_products #render show users
 end 
 
+
+
+get '/products/search' do
+  @q = params[:namers]
+  file = open("http://search.twitter.com/search.json?q=#{URI.escape(@q)}")
+  @results = JSON.load(file.read)
+  erb :search_results
+
+end
 
  
 
