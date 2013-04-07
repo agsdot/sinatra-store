@@ -179,7 +179,8 @@ post '/products/:id' do
   id = params[:id]
   name = params[:product_name]
   price = params[:product_price]
-  sql = "update products set name = '#{name}', price = '#{price}' where id = #{id};" 
+  on_sale = params[:on_sale]
+  sql = "update products set name = '#{name}', price = '#{price}', on_sale = '#{on_sale}' where id = #{id};" 
   @rs = @db.execute(sql)
   @row = @rs.first
     @name = name
