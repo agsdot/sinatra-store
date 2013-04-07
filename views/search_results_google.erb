@@ -3,13 +3,14 @@
 <% @results["items"].each do |result| %>
   <div>
 
-<p><%= result["product"]["title"] %> suggested price: $<%= result["product"]["inventories"][0]["price"] %> + $<%= result["product"]["inventories"][0]["shipping"] %> in shipping.
+<p><%= result["product"]["title"] %> suggested price: $<%= result["product"]["inventories"][0]["price"] %> + $<%= result["product"]["inventories"][0]["shipping"] %> in shipping.</p>
 
-</p>
+    <p><img src="<%= result["product"]["images"][0]["link"] %>"></p>
+    <p>Description: <%= result["product"]["description"] %></p>
+	<p><a href="<%= result["product"]["link"] %>">Buy Now!</a></p>
 
-
-    <img src="<%= result["product"]["images"][0]["link"] %>">
     <p>+++</p>
+
 
   </div>
 <% end %>
