@@ -84,10 +84,15 @@ end
 post '/products/new' do
 name = params[:product_name]
 price = params[:product_price]
+on_sale = params[:on_sale]
+ 
 #make the product in the db
   db = SQLite3::Database.new "store.sqlite3" #create a handle to the database
-  sql = "insert into products ('name', 'price') values ('#{name}', #{price});"
+  sql = "insert into products ('name', 'price', 'on_sale') values('#{name}', '#{price}', '#{on_sale}');"
+  
   # @rs = db.prepare("insert into products ('name', 'price') values ('#{name}', #{price});").execute #recordset 
+
+
   @rs = db.prepare(sql).execute
   @name = name
   @price = price
