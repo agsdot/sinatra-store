@@ -1,7 +1,7 @@
 <doctype html>
 <html>
 <head>
-	<title>my calc
+	<title>my cat
 	</title>
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/style.css" >
@@ -20,21 +20,21 @@
         <ul class="nav">
           <%  request.path_info   # => '/hello-world' %>
           <% if request.path_info == '/products/new'%>
-                    <li class="active"><a href="<%= @new_product %>">New Product</a></li>
-                    <li><a href="<%= @users %>">Users</a></li>
-                    <li><a href="<%= @products %>">Product</a></li>
+                    <li class="active"><a href="/products/new">New Product</a></li>
+                    <li><a href="/users">Users</a></li>
+                    <li><a href="/products">Product</a></li>
           <% elsif request.path_info == '/users'%>
-                    <li><a href="<%= @new_product %>">New Product</a></li>
-                    <li class="active"><a href="<%= @users %>">Users</a></li>
-                    <li><a href="<%= @products %>">Product</a></li>
+                    <li><a href="/products/new">New Product</a></li>
+                    <li class="active"><a href="/users">Users</a></li>
+                    <li><a href="/products">Product</a></li>
           <% elsif request.path_info == '/products'%>
-                    <li><a href="<%= @new_product %>">New Product</a></li>
-                    <li><a href="<%= @users %>">Users</a></li>
-                    <li class="active"><a href="<%= @products %>">Product</a></li>
+                    <li><a href="/products/new">New Product</a></li>
+                    <li><a href="/users">Users</a></li>
+                    <li class="active"><a href="/products">Product</a></li>
           <% else %>
-                    <li><a href="<%= @new_product %>">New Product</a></li>
-                    <li><a href="<%= @users %>">Users</a></li>
-                    <li><a href="<%= @products %>">Product</a></li>
+                    <li><a href="/products/new">New Product</a></li>
+                    <li><a href="/users">Users</a></li>
+                    <li><a href="/products">Product</a></li>
           <% end %> 
 
         </ul>

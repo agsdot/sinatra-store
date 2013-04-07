@@ -10,6 +10,9 @@
 		<th>Sale</th>
 		<th>Update</th>
 		<th>Remove</th>
+		<th>Twitter</th>
+		<th>Google</th>
+		
 
 	</tr>
 	<% @rs.each do |row| %>
@@ -24,10 +27,12 @@
 			<td><a href="/products/<%= row[0] %>/edit">Update</a></td>
 			<td><a href="/products/<%= row[0] %>/delete">Delete</a></td>
 			<td>
-      			<a href="/products/search?namers=<%= URI.escape(row['name']) %>">Search on Twitter</a>
+      			<a href="/products/twittersearch?namers=<%= URI.escape(row['name']) %>">Search on Twitter</a>
 		    </td>
-		
-	
+		    <td>
+				<a href="/products/googlesearch?namers=<%= URI.escape(row['name']) %>">  More Google</a>
+		    
+			</td>	
 	
 
 

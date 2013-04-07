@@ -53,15 +53,24 @@ end
 
 
 
-get '/products/search' do
+get '/products/twittersearch' do
   @q = params[:namers]
   file = open("http://search.twitter.com/search.json?q=#{URI.escape(@q)}")
   @results = JSON.load(file.read)
-  erb :search_results
-
+  erb :search_results_twitter
 end
 
+get '/products/googlesearch' do
+  @q = params[:namers]
+  file = open("https://www.googleapis.com/shopping/search/v1/public/products?key=AIzaSyCORVLr-yK2IvWRSmvrJ01L-U5kpfFYTBM&country=US&q=#{URI.escape(@q)}&alt=json",:ssl_verify_mode => OpenSSL::SSL::VERIFY_NONE)
  
+  @results = JSON.load(file.read)
+  #@results.inspect
+   erb :search_results_google
+end
+
+
+
 
 get '/products/new' do
   @users = '/users'

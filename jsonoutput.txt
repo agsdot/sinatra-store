@@ -1,0 +1,1014 @@
+{
+ "kind": "shopping#products",
+ "etag": "\"XaqKkawJfLTlLXNjFXUjBJ5f0kI/TgNDqN5zBnD_r3-zB_ZJvEJkKaY\"",
+ "id": "tag:google.com,2010:shopping/products",
+ "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?country=US&q=november&alt=json",
+ "nextLink": "https://www.googleapis.com/shopping/search/v1/public/products?country=US&q=november&startIndex=26&alt=json",
+ "totalItems": 289961,
+ "startIndex": 1,
+ "itemsPerPage": 25,
+ "currentItemCount": 25,
+ "requestId": "0CJDvlKHttLYCFUZSRAodD0AAAA",
+ "items": [
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18398334889869987264",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18398334889869987264",
+   "product": {
+    "googleId": "18398334889869987264",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Tapering leg cut High waisted Belt loops Button closing Multipockets Logo detail Flannel Solid color Woven 70% Wool, 20% Ballistic nylon, 10% Other Fibres",
+    "link": "http://www.yoox.com/item.asp?cod10=36328622&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36328622IC5AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 45.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36328622IC_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/1004539/16801155285730052736",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/1004539/gid/16801155285730052736",
+   "product": {
+    "googleId": "16801155285730052736",
+    "author": {
+     "name": "CardCow Vintage Postcards",
+     "accountId": "1004539"
+    },
+    "creationTime": "2012-07-26T23:40:31.000Z",
+    "modificationTime": "2013-04-05T07:20:45.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November with Flowers Topaz Birthstone Months Vintage Postcard",
+    "description": "Vintage Postcard November with Flowers Topaz Birthstone Months Vintage Postcard Persons born in this month have a courageous loving disposition talk little are persistent in their work an dare very susceptible to flattery They make fine surgeons and doctors public speakers and writers and are great lovers of the water Jealousy often spoils their lives and a tendency toward fault finding makes them unpleasant companions but when trained and developed the good they can accomplish is unbounded Birthstone Topaz Friend Lover Flower Carnation Alas for my poor heart Divided Back PM 1909 Nov-3 Calendar Month Names",
+    "link": "http://www.cardcow.com/360333/november-with-flowers-topaz-birthstone-months/",
+    "brand": "CardCow",
+    "condition": "used",
+    "mpns": [
+     "360333"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 14.95,
+      "shipping": 1.5,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://www.cardcow.com/images/set437/card00196_fr.jpg",
+      "status": "available"
+     },
+     {
+      "link": "http://www.cardcow.com/backs/images/set437/card00196_bk.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/8826704/12811131755903743938",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/8826704/gid/12811131755903743938",
+   "product": {
+    "googleId": "12811131755903743938",
+    "author": {
+     "name": "testfonts.com",
+     "accountId": "8826704"
+    },
+    "creationTime": "2012-12-05T11:00:00.000Z",
+    "modificationTime": "2013-04-02T10:00:00.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November Script Regular",
+    "description": "November Script Regular Part of the November Script family.",
+    "link": "http://www.fonts.com/font/fenotype/november-script/regular",
+    "brand": "Fonts.com",
+    "condition": "new",
+    "mpns": [
+     "696141"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 30.0,
+      "shipping": 0.0,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://frs.monotypeimaging.com/CatalogImages/7/696141.gif",
+      "status": "available"
+     },
+     {
+      "link": "http://cdnimg.fonts.net/CatalogImages/23/696141.png"
+     },
+     {
+      "link": "http://cdnbadge.fonts.net/c/100/696141.gif"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/2890843/2089154960426847051",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/2890843/gid/2089154960426847051",
+   "product": {
+    "googleId": "2089154960426847051",
+    "author": {
+     "name": "Overstock.com",
+     "accountId": "2890843"
+    },
+    "creationTime": "2012-07-04T09:30:00.000Z",
+    "modificationTime": "2013-04-05T14:15:48.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "Sterling Silver November CZ Birthstone Initial Necklace (E)",
+    "description": "This necklace is made with a Swarovski crystal in the color of the November birthstone and engraved with your initial. This fashion jewelry is crafted of sterling silver and hangs from an 18-inch chain. Birth month: November Style: Necklace Gemstone colors: Yellow Gemstone shapes: Round One bead-set round-cut Swarovski crystal measures 3 mm Metal: Sterling silver Finish: High polish Chain: Cable Chain length: 18 inches Clasp: Spring ring Pendant dimensions: 10.92 mm wide x 28.4 mm long Necklace dimensions: 1.5 mm wide x 18 inches long All weights and measurements are approximate and may vary slightly from the listed information. Treatment code CR (cubic zirconia). See Treatment Guide for further information. See Treatment Guide for further information.",
+    "link": "http://www.overstock.com/Jewelry-Watches/Sterling-Silver-November-CZ-Birthstone-Initial-Necklace/5525054/product.html?cid=123620",
+    "condition": "new",
+    "mpns": [
+     "MP0252-11"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 74.99,
+      "shipping": 0.0,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://ak1.ostkcdn.com/images/products/L13304271a.jpg",
+      "status": "available"
+     },
+     {
+      "link": "http://ak1.ostkcdn.com/images/products/MLB13304271a.jpg"
+     },
+     {
+      "link": "http://ak1.ostkcdn.com/images/products/MLA13304271.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/9109074/3753049291050251004",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/9109074/gid/3753049291050251004",
+   "product": {
+    "googleId": "3753049291050251004",
+    "author": {
+     "name": "Sheet Music Plus",
+     "accountId": "9109074"
+    },
+    "creationTime": "2013-03-27T00:44:36.000Z",
+    "modificationTime": "2013-03-31T22:42:08.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November Steps",
+    "description": "By Toru Takemitsu (1930-1996). Contemporary Large Ensemble/Orchestra. For orchestra (shakuhachi, biwa soli, 2 oboes, 3 clarinets in Bb, 2 trumpets in C, 3 trombones, 4 percussionists, 2 harps, strings [12-5-4-3 each placed left and right side]). Miscellaneous Instruments. 20th Century and Japanese. Full score. Performance notes. 21 pages. Duration 20m. Published by Edition Peters",
+    "link": "http://www.sheetmusicplus.com/title/November-Steps/1038905?d=sem_SFD&popup=false&utm_medium=shoppingengine&utm_source=googlebase&cvsfa=3562&cvsfe=2&cvsfhu=31303338393035",
+    "brand": "Edition Peters",
+    "condition": "new",
+    "gtin": "09790300720296",
+    "gtins": [
+     "09790300720296"
+    ],
+    "mpns": [
+     "P66299"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 44.0,
+      "shipping": 3.99,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://assets.sheetmusicplus.com/product/190X400/1038905.jpg",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/5219454/18388387229466271793",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/5219454/gid/18388387229466271793",
+   "product": {
+    "googleId": "18388387229466271793",
+    "author": {
+     "name": "Zazzle",
+     "accountId": "5219454"
+    },
+    "creationTime": "2012-12-16T17:27:12.000Z",
+    "modificationTime": "2013-03-30T16:45:19.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November 2012- P Folio Planner",
+    "description": "Couples Caricature State Fair Louisiana November 2012",
+    "link": "http://www.zazzle.com/november_2012_p_folio_planner-201334908718874912?CMPN=ShoppingGoogleBase&rf=238730954144981100",
+    "brand": "Zazzle",
+    "condition": "new",
+    "mpns": [
+     "z201334908718874912"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 53.95,
+      "shipping": 6.99,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://rlv.zcache.com/november_2012_p_folio_planner-r222717641b404d6d9d1ab7248a2d8a6d_2izra_8byvr_400.jpg",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/5490630/16956739411529402959",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/5490630/gid/16956739411529402959",
+   "product": {
+    "googleId": "16956739411529402959",
+    "author": {
+     "name": "eCrater - sophiesophieshops",
+     "accountId": "5490630"
+    },
+    "creationTime": "2012-07-03T19:49:34.000Z",
+    "modificationTime": "2013-04-04T16:41:10.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "The Horn Book Magazine November December 2003 Volume 79 Issue 6 Mauri",
+    "description": "Here is The Horn Book Magazine Volume 79 Issue 6 November December 2003 published by The Horn Book Inc Publications. Issue is used, good condition, some edge wear and rubbing, mailing label on cover, clean, complete, unmarked, M116 Please note: The cover shown is NOT the November December 2003 issue. COVER: Maurice Sendak 'Self Portrait' cover art. Interview inside - Happy Once, Happy Twice, Honoring Sendak at seventy-five. Shipping by Media Mail; 7-16 day delivery time. Please contact before ordering if you desire to upgrade to Priority Mail. AK, HI, and Canada shipping is by Priority Mail.",
+    "link": "http://www.ecrater.com/p/5414754/the-horn-book-magazine-november?gps=1",
+    "brand": "The Horn Book Magazine November December 2003",
+    "condition": "used",
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 9.95,
+      "tax": 0.0,
+      "shipping": 4.0,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://s.ecrater.com/stores/23680/4e75583817003_23680b.jpg",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18341374040031675011",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18341374040031675011",
+   "product": {
+    "googleId": "18341374040031675011",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Tapering leg cut Mid Rise Belt loops Button closing Multipockets Small studs Jersey Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36328619&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36328619FR4AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 39.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36328619FR_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/1004539/15665372909658018501",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/1004539/gid/15665372909658018501",
+   "product": {
+    "googleId": "15665372909658018501",
+    "author": {
+     "name": "CardCow Vintage Postcards",
+     "accountId": "1004539"
+    },
+    "creationTime": "2012-07-26T23:40:31.000Z",
+    "modificationTime": "2013-03-31T07:20:46.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November Birthday greetings Months Vintage Postcard",
+    "description": "Vintage Postcard November Birthday greetings Months Vintage Postcard Series 110 Divided Back unused Calendar Month Names",
+    "link": "http://www.cardcow.com/236526/november-birthday-greetings-months/",
+    "brand": "CardCow",
+    "condition": "used",
+    "mpns": [
+     "236526"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 14.95,
+      "shipping": 1.5,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://www.cardcow.com/images/set318/card00703_fr.jpg",
+      "status": "available"
+     },
+     {
+      "link": "http://www.cardcow.com/backs/images/set318/card00703_bk.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/5219454/17967689770319625232",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/5219454/gid/17967689770319625232",
+   "product": {
+    "googleId": "17967689770319625232",
+    "author": {
+     "name": "Zazzle",
+     "accountId": "5219454"
+    },
+    "creationTime": "2012-12-04T04:04:41.000Z",
+    "modificationTime": "2013-03-30T21:23:40.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November 2012- Q Tee Shirt",
+    "description": "Respiratory therapist Caricature November 2012 State Fair Louisiana",
+    "link": "http://www.zazzle.com/november_2012_q_tee_shirt-235708638795846565?CMPN=ShoppingGoogleBase&rf=238730954144981100",
+    "brand": "Zazzle",
+    "condition": "new",
+    "mpns": [
+     "z235708638795846565"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 15.95,
+      "shipping": 5.49,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://rlv.zcache.com/november_2012_q_tee_shirt-r7489e8d5b6d04f06b43763d5ce15d279_f0c6u_400.jpg",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18273269033482977186",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18273269033482977186",
+   "product": {
+    "googleId": "18273269033482977186",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:27:42.000Z",
+    "modificationTime": "2013-04-03T21:27:42.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november denim pants\n",
+    "description": "november Faded Effect Worn effect High waisted Front closure Solid color Dark wash Button closing Multipockets Distressed hem Contrasting stitching Logo detail Straight leg Worn effect Woven No zip 98% Cotton, 2% Elastane",
+    "link": "http://www.yoox.com/item.asp?cod10=42257399&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX42257399WI1AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 55.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/42/42257399WI_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/1004539/11710360060645981115",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/1004539/gid/11710360060645981115",
+   "product": {
+    "googleId": "11710360060645981115",
+    "author": {
+     "name": "CardCow Vintage Postcards",
+     "accountId": "1004539"
+    },
+    "creationTime": "2012-07-26T23:40:31.000Z",
+    "modificationTime": "2013-04-02T07:20:36.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "Friday November 18Th 1910 Royalty Free Image",
+    "description": "Vintage Postcard Friday November 18Th 1910 Royalty Free Image The emperor of Korea finally lost control of the government of his own country five years ago Today Japan Relieving him of his power Divided Back unused Published by Historical Calendar Adv Co Stock Photo",
+    "link": "http://www.cardcow.com/stock-photo/189402/",
+    "brand": "CardCow",
+    "condition": "new",
+    "mpns": [
+     "189402"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 10.0,
+      "shipping": 0.0,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://www.cardcow.com/images/set264/card00461_fr.jpg",
+      "status": "available"
+     },
+     {
+      "link": "http://www.cardcow.com/backs/images/set264/card00461_bk.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/5219454/17648359380999096175",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/5219454/gid/17648359380999096175",
+   "product": {
+    "googleId": "17648359380999096175",
+    "author": {
+     "name": "Zazzle",
+     "accountId": "5219454"
+    },
+    "creationTime": "2012-12-04T03:38:44.000Z",
+    "modificationTime": "2013-03-30T19:45:47.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November 2012 State Fair Louisiana Caricature Shirt",
+    "description": "November 2012 State Fair Louisiana Caricature",
+    "link": "http://www.zazzle.com/november_2012_state_fair_louisiana_caricature_tshirt-235118811036637702?CMPN=ShoppingGoogleBase&rf=238730954144981100",
+    "brand": "Zazzle",
+    "condition": "new",
+    "mpns": [
+     "z235118811036637702"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 21.95,
+      "shipping": 5.49,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://rlv.zcache.com/november_2012_state_fair_louisiana_caricature_tshirt-rf0c5024c2f71418ea46fd43b09a89edb_f0czg_400.jpg",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18271448909464433144",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18271448909464433144",
+   "product": {
+    "googleId": "18271448909464433144",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:27:42.000Z",
+    "modificationTime": "2013-04-03T21:27:42.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november long sleeve shirts\n",
+    "description": "november Long sleeves Buttoned cuffs Front closure Button closing No appliqués Single pocket Flannel Checked design Italian collar Flannel Woven No zip No hood 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=38252045&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX38252045XC3AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 39.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/38/38252045XC_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/1004539/7467625038784954095",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/1004539/gid/7467625038784954095",
+   "product": {
+    "googleId": "7467625038784954095",
+    "author": {
+     "name": "CardCow Vintage Postcards",
+     "accountId": "1004539"
+    },
+    "creationTime": "2012-07-26T23:40:31.000Z",
+    "modificationTime": "2013-03-31T07:20:46.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "November Birthday - Topaz and Chrysanthemum Vintage Postcard",
+    "description": "Vintage Postcard November Birthday - Topaz and Chrysanthemum Vintage Postcard Sentiments of the Months Series 200 Divided Back unused Published by Raphael Tuck Sons",
+    "link": "http://www.cardcow.com/360445/november-birthday-topaz-chrysanthemum-greetings/",
+    "brand": "CardCow",
+    "condition": "used",
+    "mpns": [
+     "360445"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 14.95,
+      "shipping": 1.5,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://www.cardcow.com/images/set437/card00308_fr.jpg",
+      "status": "available"
+     },
+     {
+      "link": "http://www.cardcow.com/backs/images/set437/card00308_bk.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18233095231579635836",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18233095231579635836",
+   "product": {
+    "googleId": "18233095231579635836",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Straight leg cut High waisted Belt loops Button closing Three front pockets Logo detail Two rear pockets Jersey Jersey Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36292257&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36292257HB2AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 35.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36292257HB_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18177711128163034437",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18177711128163034437",
+   "product": {
+    "googleId": "18177711128163034437",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november long sleeve t-shirts\n",
+    "description": "november Lightweight sweater Buttoned cuffs Long sleeves Lightweight sweater Knitted 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=37335898&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX37335898LA2AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 39.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/37/37335898LA_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18170151447518693467",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18170151447518693467",
+   "product": {
+    "googleId": "18170151447518693467",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Multipockets Hemmed cuffs Belt loops Tapering leg cut High waisted Button closing Solid color Gabardine wool Logo detail Rear button pockets Skinny Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36351011&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36351011LS2AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 59.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36351011LS_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18162617490265415271",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18162617490265415271",
+   "product": {
+    "googleId": "18162617490265415271",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november High waisted Belt loops Button closing Multipockets Logo detail Half-belt Metal Applications Two rear pockets Jacquard Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36329040&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36329040XT3AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 35.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36329040XT_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18094285300046810191",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18094285300046810191",
+   "product": {
+    "googleId": "18094285300046810191",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:27:42.000Z",
+    "modificationTime": "2013-04-03T21:27:42.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november crewneck sweaters\n",
+    "description": "november Lightweight sweater Melange effect Solid color Crew neckline Long sleeves Buttoned cuffs Front closure Button closing No pockets No appliqués Sweaters Crew neckline Lightweight sweater Knitted No zip No hood 99% Cotton, 1% Polyurethane",
+    "link": "http://www.yoox.com/item.asp?cod10=39278060&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX39278060QU1AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 49.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/39/39278060QU_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/18042142214310653805",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/18042142214310653805",
+   "product": {
+    "googleId": "18042142214310653805",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Tapering leg cut High waisted Darted waistline Button closing Multipockets Logo detail Jersey Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36328626&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36328626VO1AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 45.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36328626VO_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/17963586564097938601",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/17963586564097938601",
+   "product": {
+    "googleId": "17963586564097938601",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Tapering leg cut High waisted Belt loops Button closing Multipockets Logo detail Includes braces Corduroy-velveteen Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36328617&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36328617BK1AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 39.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36328617BK_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/17953916769494667128",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/17953916769494667128",
+   "product": {
+    "googleId": "17953916769494667128",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Straight leg cut Mid Rise Belt loops 4 buttons Multipockets No appliqués Jersey Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36352903&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36352903PL2AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 79.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36352903PL_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/17896263754863583158",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/17896263754863583158",
+   "product": {
+    "googleId": "17896263754863583158",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Straight leg cut Mid Rise Belt loops Button closing Three front pockets Logo detail Two rear pockets Jersey Jersey Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36292176&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36292176VG4AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 35.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36292176VG_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "shopping#product",
+   "id": "tag:google.com,2010:shopping/products/6695295/17857224660848229073",
+   "selfLink": "https://www.googleapis.com/shopping/search/v1/public/products?alt=json/6695295/gid/17857224660848229073",
+   "product": {
+    "googleId": "17857224660848229073",
+    "author": {
+     "name": "yoox.com",
+     "accountId": "6695295"
+    },
+    "creationTime": "2013-04-03T21:21:37.000Z",
+    "modificationTime": "2013-04-03T21:21:37.000Z",
+    "country": "US",
+    "language": "en",
+    "title": "november casual pants\n",
+    "description": "november Tapering leg cut Low waisted Darted waistline Hook-and-bar, zip Multipockets Logo detail Gabardine wool Worn effect Solid color Woven 100% Cotton",
+    "link": "http://www.yoox.com/item.asp?cod10=36328627&tp=2176&utm_source=froogle_us&utm_medium=shopping&utm_campaign=shopping_us&tskay=3FD17CD7",
+    "brand": "November",
+    "condition": "new",
+    "mpns": [
+     "us-YOOX36328627OB6AI12"
+    ],
+    "inventories": [
+     {
+      "channel": "online",
+      "availability": "inStock",
+      "price": 42.0,
+      "shipping": 9.95,
+      "currency": "USD"
+     }
+    ],
+    "images": [
+     {
+      "link": "http://cdn.yoox.biz/36/36328627OB_14_F.JPG",
+      "status": "available"
+     }
+    ]
+   }
+  }
+ ]
+}

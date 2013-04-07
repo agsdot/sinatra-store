@@ -1,0 +1,18 @@
+<h1>You searched for <%= @q %> on Google product search</h1>
+
+<% @results["items"].each do |result| %>
+  <div>
+
+<p><%= result["product"]["title"] %> suggested price: $<%= result["product"]["inventories"][0]["price"] %> + $<%= result["product"]["inventories"][0]["shipping"] %> in shipping.
+
+</p>
+
+
+    <img src="<%= result["product"]["images"][0]["link"] %>">
+    <p>+++</p>
+
+  </div>
+<% end %>
+
+
+
