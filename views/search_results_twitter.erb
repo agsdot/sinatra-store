@@ -2,9 +2,18 @@
 
 <% @results["results"].each do |result| %>
   <div>
-    <img src="<%= result["profile_image_url"] %>">
+<%= result["from_user"] %>"
+<a href="http://www.twitter.com/<%= result["from_user"] %>">
+	<img src="<%= result["profile_image_url"] %>"></a> says:
     <p><%= result["text"] %></p>
   </div>
 <% end %>
+
+
+
+
+<p></p>
+<p></p>
+<p><a href="/ ">Go back to Home</a></p>
 
 

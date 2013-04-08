@@ -1,9 +1,11 @@
-<h1>You searched for <%= @q %> on Google product search</h1>
+<h1>You searched for "<%= @q.capitalize %>" on Google product search</h1>
 
 <% @results["items"].each do |result| %>
   <div>
 
-<p><%= result["product"]["title"] %> suggested price: $<%= result["product"]["inventories"][0]["price"] %> + $<%= result["product"]["inventories"][0]["shipping"] %> in shipping.</p>
+<h2><%= result["product"]["title"] %></h2>
+
+	<p>Suggested price: $<%= result["product"]["inventories"][0]["price"] %> + $<%= result["product"]["inventories"][0]["shipping"] %> in shipping.</p>
 
     <p><img src="<%= result["product"]["images"][0]["link"] %>"></p>
     <p>Description: <%= result["product"]["description"] %></p>
@@ -14,6 +16,11 @@
 
   </div>
 <% end %>
+
+<p></p>
+<p></p>
+<p><a href="/ ">Go back to Home</a></p>
+
 
 
 
