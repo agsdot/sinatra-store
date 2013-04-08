@@ -3,8 +3,12 @@
 <head>
 	<title>my cat
 	</title>
-	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/style.css" >
+	  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="/style.css" >
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-dropdown.js"></script>
+
 </head>
 
 <body>
@@ -14,33 +18,7 @@
 
 
   <div class='container'>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="<%= @home %>">Catlandia</a>
-        <ul class="nav">
-          <%  request.path_info   # => '/hello-world' %>
-          <% if request.path_info == '/products/new'%>
-                    <li class="active"><a href="/products/new">New Product</a></li>
-                    <li><a href="/users">Users</a></li>
-                    <li><a href="/products">Product</a></li>
-          <% elsif request.path_info == '/users'%>
-                    <li><a href="/products/new">New Product</a></li>
-                    <li class="active"><a href="/users">Users</a></li>
-                    <li><a href="/products">Product</a></li>
-          <% elsif request.path_info == '/products'%>
-                    <li><a href="/products/new">New Product</a></li>
-                    <li><a href="/users">Users</a></li>
-                    <li class="active"><a href="/products">Product</a></li>
-          <% else %>
-                    <li><a href="/products/new">New Product</a></li>
-                    <li><a href="/users">Users</a></li>
-                    <li><a href="/products">Product</a></li>
-          <% end %> 
-
-        </ul>
-      </div>
-    </div>
-
+    <%= erb :menu_nav_bar %>
 
     <div class='row'>
 <!--       <div class='span6  main'> 
