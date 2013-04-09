@@ -10,26 +10,19 @@
     <script src="/bootstrap-dropdown.js"></script>
 
 </head>
-
 <body>
+    <div class="container" id="wrapper">
 
+            <%= erb :menu_nav_bar %>
+        <div class="span11">
 
+            <p>Catland Store</p>
+            <p><%= yield %></p>
+        </div>
 
-
-
-  <div class='container'>
-    <%= erb :menu_nav_bar %>
-
-    <div class='row'>
-<!--       <div class='span6  main'> 
- -->
-        <p>Catland Store</p>
-        <p><%= yield %></p>
-<!--       </div> -->
     </div>
-  </div>
-</body>
 
+</body>
 </html>
 
 

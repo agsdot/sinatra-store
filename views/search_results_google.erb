@@ -1,5 +1,6 @@
 <h1>You searched for "<%= @q.capitalize %>" on Google product search</h1>
 
+<hr>
 <% @results["items"].each do |result| %>
   <div>
 
@@ -11,8 +12,7 @@
     <p>Description: <%= result["product"]["description"] %></p>
 	<p><a href="<%= result["product"]["link"] %>">Buy Now!</a></p>
 
-    <p>+++</p>
-
+	<hr>
 
   </div>
 <% end %>
